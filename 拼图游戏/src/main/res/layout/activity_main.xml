@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.chenmo.pintugame.GamePIcLayout
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:padding="3dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         />
+    
+    <ImageView
+        android:padding="3dp"
+        android:background="#5500ff00"
+        android:src="@drawable/image"
+        android:layout_width="86.4dp"
+        android:layout_height="119.8dp" />
+</RelativeLayout>
